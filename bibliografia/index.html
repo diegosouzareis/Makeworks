@@ -1,0 +1,108 @@
+<html ng-app="myApp">
+  <head>
+<title>Bibliografia</title>
+<meta charset='UTF-8'><meta name="robots" content="noindex">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+ <link rel="shortcut icon" href="http://makeworks.hol.es/favicon.png">
+    <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
+
+ 
+	<script src="todo.js"></script>
+	<script src="todo-services.js"></script>
+
+ <link href="lib/ionic/css/ionicons.css" rel="stylesheet">
+   <link href="lib/ionic/css/ionicons.min.css" rel="stylesheet">
+   <link href="lib/ionic/fonts/ionicons.svg" rel="stylesheet">
+   
+   <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="lib/ionic/css/style.css" rel="stylesheet">
+
+   
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+  
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    
+    <script src="cordova.js"></script>
+
+    
+    <script src="js/app.js"></script>
+	
+	<script src="script.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45152981-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+    <body background="#">
+
+	<div ng-controller="MyCtrl">
+<ion-header-bar align-title="center" class="bar-light">
+  <div class="buttons">
+    <button class="button button-clear ion-ios-arrow-left" onClick="window.location.href='http://makeworks.hol.es/conclusao';" ></button>
+  </div>
+  <h1 class="title"><img class="title-image" src="oi.png" width="150" height="43" /></h1>
+  <div class="buttons">
+    <button class="button icon ion-person" onClick="window.location.href='http://makeworks.hol.es/gerenciador';" ></button>
+  </div>
+</ion-header-bar>
+	
+	<ion-content>
+	<div id="mainWrapper">
+        
+        <form id="msform" method="post" action="q/8.php" >
+	
+        <div class="card">
+  <div class="item item-divider">
+    Criar Bibliografia
+  </div>
+  <div class="item item-text-wrap">
+    <fieldset>
+
+        <input type="text" name="pag1" id="pag1" placeholder="Site 1">
+        <br>
+        <input type="text" name="pag2" id="pag2" placeholder="Site 2">
+        <br>
+        <input type="text" name="pag3" id="pag3" placeholder="Site 3">
+        <br>
+        <input type="text" name="pag4" id="pag4" placeholder="Site 4">
+        <br>
+        <input type="text" name="pag5" id="pag5" placeholder="Site 5">
+        <br>
+        <input type="text" name="pag6" id="pag6" placeholder="Site 6">
+        <br>
+  </div>
+  <div class="item item-divider">
+    <input type="submit" name="submit" class="button button-block button-positive" id="submit"  value="Criar Bibliografia">
+
+  </div>
+</div>
+        
+        
+
+        </form>
+	
+	
+	
+	
+	
+	</ion-content>
+	
+	
+	
+	
+      
+          
+      
+    </body>
+</html>
